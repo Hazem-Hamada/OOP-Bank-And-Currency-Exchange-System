@@ -10,6 +10,10 @@ This project is the capstone system of **Course 11 (OOP as it Should Be – Appl
 The application integrates a full-featured **Banking Management System** (across 10 progressive system extensions) alongside an integrated **Currency Exchange Subsystem**, powered by custom-built reusable C++ utility libraries.
 
 ---
+<img width="2880" height="1676" alt="image" src="https://github.com/user-attachments/assets/94e982af-da1e-4d04-a6fc-784d36079e84" />
+
+<img width="1820" height="1115" alt="image" src="https://github.com/user-attachments/assets/5cc11e1a-d654-43da-a963-2f5521e9cca7" />
+
 
 ## 🏗️ System Architecture
 
@@ -21,6 +25,11 @@ The codebase is organized into distinct architectural layers to maximize maintai
 * **`clsUser` (Inherits from `clsPerson`):** Handles system users, Bitwise permission masks, credential verification, and password encryption/decryption.
 * **`clsCurrency`:** Encapsulates currency metadata, exchange rate updates, and cross-currency conversion logic.
 * **`Global.h`:** Manages active user session state (`CurrentUser`) across the application lifecycle.
+
+* <img width="1832" height="1198" alt="image" src="https://github.com/user-attachments/assets/2608d7eb-11c2-40ee-accc-8ddc1f3879c6" />
+<img width="1684" height="1261" alt="image" src="https://github.com/user-attachments/assets/9fc63246-5e81-4e17-bb36-7730f0d9485c" />
+
+
 
 ### 2. Presentation Layer (UI Screen Hierarchy)
 * **`clsScreen`:** Abstracted base screen class responsible for rendering standardized headers, displaying the active logged-in user and system date, and enforcing screen-level access control.
@@ -35,6 +44,10 @@ The codebase is organized into distinct architectural layers to maximize maintai
 * **`clsInputValidate`:** Defensive input validation engine guarding against type mismatches, out-of-bounds numbers, and invalid date ranges.
 * **`clsDate` & `clsPeriod`:** Custom date arithmetic, system timestamps, and period overlap calculations.
 * **`clsString`:** Dual-paradigm string tokenization, sanitization, and formatting library.
+<img width="1849" height="1018" alt="image" src="https://github.com/user-attachments/assets/5e0eb932-0d30-415b-9216-30c07e502c4f" />
+<img width="1844" height="1016" alt="image" src="https://github.com/user-attachments/assets/8e0f4baf-aaf8-40fd-9c50-8229af8739b6" />
+<img width="1857" height="1013" alt="image" src="https://github.com/user-attachments/assets/623c2bf5-f628-45f5-a705-99ffc164d1d7" />
+
 
 ---
 
